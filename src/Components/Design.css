@@ -98,3 +98,18 @@
   display: flex;
   position: "absolute";
 }
+.lii {
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  background-attachment: fixed;
+  font-weight: bold;
+  color: #000;
+  padding: 10%;
+  margin-top: 10%;
+  justify-content: center;
+
+  position: "absolute";
+}
+li {
+  list-style-type: none;
+}

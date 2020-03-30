@@ -102,50 +102,46 @@ export class Inbox extends Component {
               }
               title={<span style={styles.title}>MailBox</span>}
             />
-            <hr /> {<ContentInbox />}
-            <RaisedButton
-              fullWidth={true}
-              label="Inbox"
-              styles={styles.button}
-              onClick={() => this.props.history.push("/inbox")}
-              Primary={true}
-            />
+            <hr />
+
+            <li onClick={() => this.props.history.push("/")}>
+              {<ContentInbox />} Home
+            </li>
+
             <hr />
             <Subheader styles="font-weight: bold">ALL LABELS</Subheader>
             <List>
               <ListItem>
                 {<ActionInfo />}
-                <RaisedButton
-                  fullWidth={true}
-                  label="Deleted"
-                  styles={styles.button}
-                  onClick={() => this.props.history.push("/deleted")}
-                  Primary={true}
-                />
+                <li onClick={() => this.props.history.push("/deleted")}>
+                  Deleted
+                </li>
               </ListItem>
 
               <br />
               <ListItem>
                 {<ActionInfo />}
-                <RaisedButton
-                  label="Full width"
+                <li
                   fullWidth={true}
-                  label="Spam"
                   onClick={() => this.props.history.push("/spam")}
                   Primary={true}
                   styles={styles.button}
-                />
+                >
+                  Spam
+                </li>
               </ListItem>
               <ListItem>
                 {<ActionInfo />}
-                <RaisedButton
+                <li
                   fullWidth={true}
-                  label="Draft"
                   onClick={() => this.props.history.push("/draft")}
                   Primary={true}
                   styles={styles.button}
-                />
+                >
+                  Draft
+                </li>
               </ListItem>
+
               <ListItem
                 insetChildren={true}
                 leftIcon={<CommunicationCall color={red600} />}
@@ -168,7 +164,7 @@ export class Inbox extends Component {
                 secondaryText="Work"
               />
               <ListItem>
-                <RaisedButton label="Logout" onClick={this.Logout} />
+                <li onClick={this.Logout}>Logout</li>
               </ListItem>
             </List>
             <hr />
