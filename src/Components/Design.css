@@ -1,0 +1,100 @@
+.FirstPage_desgin {
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  font-size: 100%;
+  //background-image: url(./img3.jpg);
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: "absolute";
+}
+
+.Heading {
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  text-align: left;
+  text-shadow: crimson;
+  color: red;
+}
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  font-size: 100%;
+  height: 5%;
+  text-align: left;
+  display: "flex";
+}
+.DesignMail {
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  font-size: 100%;
+  background-attachment: fixed;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-weight: bold;
+  color: #000;
+  display: "flex";
+}
+.DesignDelete {
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  font-size: 100%;
+  background-attachment: fixed;
+  justify-content: left;
+  text-align: left;
+  font-weight: bold;
+  color: #000;
+  display: "flex";
+}
+
+.MenuDesign {
+  justify-content: left;
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  font-size: 100%;
+  background-attachment: fixed;
+  font-weight: bold;
+  color: #000;
+  padding: 10%;
+  margin-top: 10%;
+}
+.DesignInbox {
+  justify-content: left;
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  background-attachment: fixed;
+  font-weight: bold;
+  color: #000;
+}
+.DesignLoginPage {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  background-attachment: fixed;
+  font-weight: bold;
+  color: #000;
+  justify-content: center;
+  display: flex;
+}
+.hover {
+  background-color: #efebe9;
+  height: 2%;
+}
+
+.logged {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  background-attachment: fixed;
+  font-weight: bold;
+  color: #000;
+  padding: 10%;
+  margin-top: 10%;
+  justify-content: center;
+  display: flex;
+  position: "absolute";
+}
